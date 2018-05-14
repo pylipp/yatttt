@@ -1,0 +1,40 @@
+% Basic information for cover & title page
+\newcommand*{\getUniversity}{Technische Universität München}
+\newcommand*{\getFaculty}{Department of Science}
+\newcommand*{\getChair}{Chair of Applied Science}
+\newcommand*{\getTitle}{Very Important Subject}
+\newcommand*{\getTitleGer}{Sehr Wichtige Angelegenheit}
+\newcommand*{\getAuthor}{John Smith}
+\newcommand*{\getDoctype}{Master Thesis}
+\newcommand*{\getSupervisor}{Prof. Dr. S. Upervisor}
+\newcommand*{\getAdvisor}{Dr. A. Dvisor}
+\newcommand*{\getSecondAdvisor}{Another Name}
+\newcommand*{\getSubmissionDate}{February 30th, 2019}
+\newcommand*{\getSubmissionLocation}{Munich}
+
+% Command for integration variable
+% see % http://tex.stackexchange.com/questions/60545/should-i-mathrm-the-d-in-my-integrals
+\newcommand*\diff{\mathop{}\!\mathrm{d}}
+\newcommand*\Diff[1]{\mathop{}\!\mathrm{d^#1}}
+
+% Convenient figure referencing
+% see http://joshbranchaud.com/blog/2013/04/29/Fancy-References-in-LaTeX.html
+\newcommand{\figref}[1]{fig.~\ref{#1}}
+\newcommand{\Figref}[1]{Fig.~\ref{#1}}
+\newcommand{\tabref}[1]{table~\ref{#1}}
+\newcommand{\Tabref}[1]{Table~\ref{#1}}
+\newcommand{\eqnref}[1]{eq.~\eqref{#1}}
+\newcommand{\Eqnref}[1]{Eq.~\eqref{#1}}
+\newcommand{\secref}[1]{sec.~\ref{#1}}
+\newcommand{\Secref}[1]{Sec.~\ref{#1}}
+\newcommand{\defref}[1]{definition~\ref{#1}}
+\newcommand{\Defref}[1]{Definition~\ref{#1}}
+
+% variables for matplotlib2tikz
+\newlength\figureheight
+\newlength\figurewidth
+
+% Beamer commands
+
+% http://tex.stackexchange.com/questions/57177/beamer-changing-the-font-size-of-the-references-using-the-shrink-argument-cause
+\renewcommand*{\bibfont}{\scriptsize}
